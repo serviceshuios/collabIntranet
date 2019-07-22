@@ -1,0 +1,45 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "collabIntranet",
+    "packageName": "com.huios.collab",
+    "packageFolder": "com/huios/collab",
+    "serverPort": 8087,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "fr",
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.1.2",
+    "jwtSecretKey": "OTQyMTBhNGQ4YWJmODEwNjhkNDI5OWRhNDJhNGU2YzA0OWE1ZDM5NDEwNmQzNGMyNmJmMjcxYWZjNmE5YjQ3N2VhMWI5MmU5ZTdlNTVkNWU2MmQwYWQ4Y2NhZmFlYzg5MzMxOWIyNTY2YzBmM2MyZmE3ZDlhNjg5ZmJiYTgzZGE=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "serviceshuios",
+  "repository-name": "collabIntranet"
+}
